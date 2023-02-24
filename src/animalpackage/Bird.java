@@ -1,8 +1,10 @@
+package animalpackage;
+
 public class Bird  extends Dog{
 
     int quantity;
     String cage;
-    double foodPerDay;
+   public double foodPerDay;
 
 
     public static void main (String[] args){

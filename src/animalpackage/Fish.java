@@ -1,3 +1,5 @@
+package animalpackage;
+
 public class Fish extends Animal{
 
     String hubitat;
@@ -11,14 +13,17 @@ public class Fish extends Animal{
         fish.breathing();
         fish.consumingFood();
         fish.hubitat="freshwater";
-        System.out.println(" i'm " + fish.hubitat+ " and "+ fish.type+" my age is "+ fish.age+ " and weight "+ fish.weight );
+        System.out.println("I'm " + fish.hubitat+ " and "+ fish.type+" \nMy age is "+ fish.age+ " and weight is "+ fish.weight );
 
-
+        fish.consumingFood("algae");
     }
 
     @Override
     public void consumingFood(){
         System.out.println("i prefer Fish flakes only");
+    }
+    public void consumingFood(String food){
+        System.out.println("When i'm hungry, i'm ok to eat " +food);
     }
 
 

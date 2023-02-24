@@ -1,6 +1,6 @@
-import org.w3c.dom.ls.LSOutput;
+package animalpackage;
 
-public class Zoo extends Bird{
+public class Cat extends Animal{
     public void zoneType(){
         System.out.println(" tropical zone");
     }
@@ -10,11 +10,11 @@ public class Zoo extends Bird{
     int animalQuantity;
 
     public static void main(String[]args){
-        Zoo zoo= new Zoo();
+        Cat zoo= new Cat();
         zoo.zoneType();
         zoo.animalType();
         zoo.animalQuantity= 20;
-        zoo.foodPerDay=30;
+
 
     }
 }
