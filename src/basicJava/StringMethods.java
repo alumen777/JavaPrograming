@@ -1,4 +1,4 @@
-package additionalanimals;
+package basicJava;
 
 import java.util.Locale;
 

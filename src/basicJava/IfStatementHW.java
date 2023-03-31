@@ -1,4 +1,4 @@
-package additionalanimals;
+package basicJava;
 
 import java.sql.SQLOutput;
 import java.util.Scanner;
